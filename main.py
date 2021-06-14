@@ -22,12 +22,18 @@ def authenticateUser():
         elif (DB.verify_user(username, password)):
             data_object["status"] = True;
             session_key = secrets.token_urlsafe(128)
-            #make database write session key
-
+            #assume its safe because we already verified user
+            DB.write_session_to_user(username, session_key)
             data_object["session-key"] = session_key
             return json.dumps(data_object)
         else:
             return json.dumps(data_object)
     return json.dumps(data_object)
+@app.route("/getWatchList", methods=["GET"])
+def getWatchList():
+    print(request.data)
+
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=8000)
