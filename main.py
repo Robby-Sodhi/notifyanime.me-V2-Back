@@ -4,6 +4,7 @@ from DataBase import DB
 import base64
 import psycopg2
 import json
+import secrets
 app = Flask(__name__)
 #****************** TEMPORARY JUST FOR TESTING
 cors = CORS(app)
@@ -12,7 +13,7 @@ cors = CORS(app)
 
 @app.route("/authenticateUser", methods=["POST"])
 def authenticateUser():
-    data_object = {"status": False, "session-key": None, "expires": None}
+    data_object = {"status": False, "session-key": None}
     if request.content_type == "text/plain":
         username = json.loads(request.data)["username"]
         password = json.loads(request.data)["password"]
@@ -20,8 +21,10 @@ def authenticateUser():
             return json.dumps(data_object)
         elif (DB.verify_user(username, password)):
             data_object["status"] = True;
-            data_object["session-key"] = username
-            data_object["expires"] = "18 Dec 2013 12:00:00 UTC"
+            session_key = secrets.token_urlsafe(128)
+            #make database write session key
+
+            data_object["session-key"] = session_key
             return json.dumps(data_object)
         else:
             return json.dumps(data_object)
