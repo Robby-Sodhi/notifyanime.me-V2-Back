@@ -31,7 +31,13 @@ def authenticateUser():
     return json.dumps(data_object)
 @app.route("/getWatchList", methods=["GET"])
 def getWatchList():
-    print(request.data)
+    dataObject = {"status": False, "WatchList": None}
+    session_key = request.headers.get("session-key")
+    if not session_key:
+        return dataObject
+    mal_auth_details = DB.get_mal_auth_details(session_key))
+    if not mal_auth_details["status"]:
+        return dataObject
 
 
 
