@@ -9,7 +9,7 @@ app = Flask(__name__)
 #****************** TEMPORARY JUST FOR TESTING
 cors = CORS(app)
 #*******************
-
+# add logging for the amount of logins and dashboard visits!!!!!!!!!!
 
 @app.route("/authenticateUser", methods=["POST"])
 def authenticateUser():
@@ -31,14 +31,22 @@ def authenticateUser():
     return json.dumps(data_object)
 @app.route("/getWatchList", methods=["GET"])
 def getWatchList():
-    dataObject = {"status": False, "WatchList": None}
+    dataObject = {"sessionKeyValid": False, "WatchList": None}
     session_key = request.headers.get("session-key")
     if not session_key:
         return dataObject
-    mal_auth_details = DB.get_mal_auth_details(session_key))
+    mal_auth_details = DB.get_mal_auth_details(session_key)
     if not mal_auth_details["status"]:
         return dataObject
-
+    else:
+        dataObject["sessionKeyValid"] = True
+        dataObject["WatchList"] = False
+        return dataObject
+        #make a mal api class and get watch list....
+@app.route("/authenticateMal", methods=["POST"])
+def authenticateMal():
+    print(request.data)
+    return json.dumps({"status": True})
 
 
 if __name__ == "__main__":
