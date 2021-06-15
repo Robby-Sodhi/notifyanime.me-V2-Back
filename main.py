@@ -15,8 +15,9 @@ cors = CORS(app)
 def authenticateUser():
     data_object = {"status": False, "session-key": None}
     if request.content_type == "text/plain":
-        username = json.loads(request.data)["username"]
-        password = json.loads(request.data)["password"]
+        requestData = json.loads(request.data)
+        username = requestData["username"]
+        password = requestData["password"]
         if not username or not password:
             return json.dumps(data_object)
         elif (DB.verify_user(username, password)):
