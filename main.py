@@ -43,13 +43,18 @@ def getWatchList():
     session_key = request.headers.get("session-key")
     if not session_key or not get_db().is_session_valid(session_key):
         return dataObject
-    mal_auth_details = get_db().get_mal_auth_details(session_key)
-    if not mal_auth_details["status"]:
-        return dataObject
-    else:
-        dataObject["sessionKeyValid"] = get_db().is_session_valid(session_key)
-        dataObject["WatchList"] = MyAnimeList.get_watch_list(mal_auth_details["accesstoken"], mal_auth_details["refreshtoken"])
-        return dataObject
+    for _ in range(2): #loop can only run twice
+        mal_auth_details = get_db().get_mal_auth_details(session_key)
+        if not mal_auth_details["status"]:
+            return dataObject
+        else:
+            dataObject["sessionKeyValid"] = get_db().is_session_valid(session_key)
+            dataObject["WatchList"] = MyAnimeList.get_watch_list(mal_auth_details["accesstoken"])
+            if (not dataObject["WatchList"]):
+                MyAnimeList.refresh_access_token(session_key, mal_auth_details["refreshtoken"], get_db())
+                continue
+            return dataObject
+    return dataObject
 @app.route("/authenticateMal", methods=["POST"])
 def authenticateMal():
     data_object = {"status": False}
