@@ -2118,3 +2118,164 @@
 2021-06-21 21:00:58,308 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
 2021-06-21 21:00:58,585 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
 2021-06-21 21:00:58,587 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:58] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:15:33,950 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:15:33,968 : INFO :  * Restarting with stat
+2021-06-21 21:15:34,223 : WARNING :  * Debugger is active!
+2021-06-21 21:15:34,228 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:15:34,234 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:17:07,406 : INFO : 99.234.19.2 - - [21/Jun/2021 21:17:07] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:17:07,706 : INFO : logged Robstersgaming in with session_key tRcfPQ6VPKfZcBWVohNr5WQLRu5os5Qjxj88D1aMX1IHN7oFgJ1dg-1Ei1nCQTSGwi3gyEyF2N8ZeSJjR9c0oyEpmHKTsd9txJdgXuyGNteGmO1KGL9Di0fnZ4g5We8I1g8mHevhOc_hyP_KydiFaCknoJ4YMxTRWj-stGGIb2g
+2021-06-21 21:17:07,707 : INFO : 99.234.19.2 - - [21/Jun/2021 21:17:07] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:17:07,734 : INFO : 99.234.19.2 - - [21/Jun/2021 21:17:07] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:17:07,814 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:17:08,091 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 21:17:08,096 : INFO : 99.234.19.2 - - [21/Jun/2021 21:17:08] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:19:33,603 : INFO : 99.234.19.2 - - [21/Jun/2021 21:19:33] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:19:33,661 : INFO : 99.234.19.2 - - [21/Jun/2021 21:19:33] "[35m[1mPOST //signUpUser HTTP/1.1[0m" 500 -
+2021-06-21 21:20:02,562 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:20:02,583 : INFO :  * Restarting with stat
+2021-06-21 21:20:02,831 : WARNING :  * Debugger is active!
+2021-06-21 21:20:02,836 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:20:02,843 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:20:21,430 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:20:21,447 : INFO :  * Restarting with stat
+2021-06-21 21:20:21,704 : WARNING :  * Debugger is active!
+2021-06-21 21:20:21,709 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:20:21,715 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:21:13,364 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:21:13,386 : INFO :  * Restarting with stat
+2021-06-21 21:21:55,024 : INFO :  * Restarting with stat
+2021-06-21 21:21:55,263 : WARNING :  * Debugger is active!
+2021-06-21 21:21:55,268 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:21:55,275 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:21:57,142 : INFO : 99.234.19.2 - - [21/Jun/2021 21:21:57] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:21:57,219 : INFO : 99.234.19.2 - - [21/Jun/2021 21:21:57] "[37mPOST //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:22:04,595 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:22:04,613 : INFO :  * Restarting with stat
+2021-06-21 21:22:04,865 : WARNING :  * Debugger is active!
+2021-06-21 21:22:04,870 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:22:04,877 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:22:07,438 : INFO : 99.234.19.2 - - [21/Jun/2021 21:22:07] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:22:07,516 : INFO : 99.234.19.2 - - [21/Jun/2021 21:22:07] "[35m[1mPOST //signUpUser HTTP/1.1[0m" 500 -
+2021-06-21 21:22:35,931 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:22:35,950 : INFO :  * Restarting with stat
+2021-06-21 21:22:36,192 : WARNING :  * Debugger is active!
+2021-06-21 21:22:36,196 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:22:36,203 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:22:39,302 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:22:39,319 : INFO :  * Restarting with stat
+2021-06-21 21:22:39,565 : WARNING :  * Debugger is active!
+2021-06-21 21:22:39,570 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:22:39,576 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:22:59,248 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:22:59,266 : INFO :  * Restarting with stat
+2021-06-21 21:22:59,510 : WARNING :  * Debugger is active!
+2021-06-21 21:22:59,516 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:22:59,522 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:24:18,199 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:24:18,216 : INFO :  * Restarting with stat
+2021-06-21 21:24:18,459 : WARNING :  * Debugger is active!
+2021-06-21 21:24:18,464 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:24:18,470 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:26:15,429 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:26:15,447 : INFO :  * Restarting with stat
+2021-06-21 21:26:15,689 : WARNING :  * Debugger is active!
+2021-06-21 21:26:15,694 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:26:15,701 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:26:37,412 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:26:37,431 : INFO :  * Restarting with stat
+2021-06-21 21:26:37,667 : WARNING :  * Debugger is active!
+2021-06-21 21:26:37,672 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:26:37,678 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:27:06,612 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:27:06,628 : INFO :  * Restarting with stat
+2021-06-21 21:27:06,866 : WARNING :  * Debugger is active!
+2021-06-21 21:27:06,871 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:27:06,878 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:27:14,106 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:27:14,122 : INFO :  * Restarting with stat
+2021-06-21 21:27:14,363 : WARNING :  * Debugger is active!
+2021-06-21 21:27:14,368 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:27:14,374 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:28:27,763 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 21:28:27,782 : INFO :  * Restarting with stat
+2021-06-21 21:28:28,037 : WARNING :  * Debugger is active!
+2021-06-21 21:28:28,042 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:28:28,048 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:28:30,776 : INFO : 99.234.19.2 - - [21/Jun/2021 21:28:30] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:28:30,848 : INFO : 99.234.19.2 - - [21/Jun/2021 21:28:30] "[37mPOST //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:28:34,071 : INFO : 99.234.19.2 - - [21/Jun/2021 21:28:34] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:28:34,367 : INFO : logged Robstersgaming in with session_key qhNGuewXg83TRzS46AkdO8ZrU8wBI7sMd6AEqqFEzYP0zemE1-B3sGW_EGcZLDgTRnwkXtQZU-WfO_A7RHh1VplEhhKwGZcRmMunT4M97OIUM9NVD2XyOaAGtwuvlzgmtQG-XYEzHclmqh2R5W65BAVz-q5CKVSx16xwPu3kBlw
+2021-06-21 21:28:34,367 : INFO : 99.234.19.2 - - [21/Jun/2021 21:28:34] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:28:34,398 : INFO : 99.234.19.2 - - [21/Jun/2021 21:28:34] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:28:34,472 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:28:34,881 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 21:28:34,883 : INFO : 99.234.19.2 - - [21/Jun/2021 21:28:34] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:29:01,133 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\DataBase.py', reloading
+2021-06-21 21:29:01,153 : INFO :  * Restarting with stat
+2021-06-21 21:33:37,132 : INFO :  * Restarting with stat
+2021-06-21 21:33:37,381 : WARNING :  * Debugger is active!
+2021-06-21 21:33:37,386 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:33:37,393 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:33:38,969 : INFO : 99.234.19.2 - - [21/Jun/2021 21:33:38] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:33:39,037 : INFO : 99.234.19.2 - - [21/Jun/2021 21:33:39] "[37mPOST //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:33:48,230 : INFO : 99.234.19.2 - - [21/Jun/2021 21:33:48] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:33:48,302 : INFO : 99.234.19.2 - - [21/Jun/2021 21:33:48] "[35m[1mPOST //signUpUser HTTP/1.1[0m" 500 -
+2021-06-21 21:34:20,904 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\DataBase.py', reloading
+2021-06-21 21:34:20,925 : INFO :  * Restarting with stat
+2021-06-21 21:34:21,186 : WARNING :  * Debugger is active!
+2021-06-21 21:34:21,191 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 21:34:21,198 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 21:34:23,844 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:23] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:34:24,374 : INFO : logged test2 in with session_key 2_uHm27HAjf4sV5VdqYCufgj5sPFUP9W7AU_1PDUfocC_Jq9KlbnRhIdmnKBaafxz_8NXJySie5XLw-ECZSANCApK4hXGEN8DFyq3y2NUfkUq3mSDXOaKGdjDdpPMDyJwUBj0EbnLdEd3tVcf8Kzl3XWR_Kvy5BxB_tSout42xY
+2021-06-21 21:34:24,375 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:24] "[37mPOST //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:34:24,447 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:24] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:34:24,524 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:34:24,848 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:34:24,850 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:34:25,074 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 400 None
+2021-06-21 21:34:25,077 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:34:25,369 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:34:25,371 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:34:25,555 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 400 None
+2021-06-21 21:34:25,557 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:25] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:34:40,972 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:40] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:34:41,272 : INFO : logged test in with session_key t6WpjS6m_qFtnWEl7VSgtsFHIv6vTrXJrreT0dcyfq0xpX_nPl0UlIGvH9YOyS3ewNLQR2KSW9hw8vWM31M0YmUn3gSBUrnHade2hCecjXIXQ_2XYHNAGhUDf2WIYR1FuDllBBfwgi8beuBlx25Wtax4XezQpKFSq2TQHs3tmL4
+2021-06-21 21:34:41,272 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:41] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:34:41,318 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:41] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:34:41,398 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:34:41,742 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:34:41,744 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:34:42,182 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 401 None
+2021-06-21 21:34:42,185 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:34:42,368 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:34:42,370 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:34:42,813 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 401 None
+2021-06-21 21:34:42,815 : INFO : 99.234.19.2 - - [21/Jun/2021 21:34:42] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:36:16,444 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:16] "[37mOPTIONS //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:36:16,970 : INFO : logged test in with session_key IhaylDmyPACejm7aHF3tplzL61AI7pM2kvsPYJFGAQ_fIae66M2eKlY8knmCTS-CYtsa3ZtBWWB6yEgXQKDO-j8YRmm2D_dOldsfzp2nNfkd69-ogXVJC8d9IA5DPE5CQvDPoyMFOEUyoJ9evveFaNHAdw-iOn32dO7_akaVGlY
+2021-06-21 21:36:16,971 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:16] "[37mPOST //signUpUser HTTP/1.1[0m" 200 -
+2021-06-21 21:36:17,005 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:17] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:36:17,073 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:36:17,370 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:36:17,373 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:36:17,585 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 400 None
+2021-06-21 21:36:17,589 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:36:17,753 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:36:17,756 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:36:17,947 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 400 None
+2021-06-21 21:36:17,949 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:17] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:36:24,390 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:24] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:36:24,685 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:24] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:36:28,518 : INFO : logged test in with session_key R3q4CmS1r8B4fDmB7wdSOqtHmrpH-6_bWwo0rg4F9AYXaByGXlzd-xYXl9PmzM3uOCO3S2IRj-MFMuBtTQAp1Wuo4jmJs3WkYzkhf8KdZPmfIjMTzP7aBpoYTaJwMq7yE_-FF5o18oYWNYW-AeybLXK8AUeDm6MzdNZ01WYJITI
+2021-06-21 21:36:28,519 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:28] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:36:28,544 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:28] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:36:28,612 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:36:28,891 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:36:28,894 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:36:29,133 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 400 None
+2021-06-21 21:36:29,137 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:36:29,307 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 401 None
+2021-06-21 21:36:29,309 : DEBUG : Starting new HTTPS connection (1): myanimelist.net:443
+2021-06-21 21:36:29,595 : DEBUG : https://myanimelist.net:443 "POST /v1/oauth2/token HTTP/1.1" 400 None
+2021-06-21 21:36:29,597 : INFO : 99.234.19.2 - - [21/Jun/2021 21:36:29] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
