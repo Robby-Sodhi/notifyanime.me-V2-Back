@@ -1642,3 +1642,479 @@
 2021-06-21 00:21:11,099 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
 2021-06-21 00:21:11,360 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
 2021-06-21 00:21:11,368 : INFO : 127.0.0.1 - - [21/Jun/2021 00:21:11] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:40:55,240 : INFO :  * Restarting with stat
+2021-06-21 12:40:55,541 : WARNING :  * Debugger is active!
+2021-06-21 12:40:55,547 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 12:40:55,552 : INFO :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-06-21 12:40:57,507 : INFO : 127.0.0.1 - - [21/Jun/2021 12:40:57] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 12:40:57,852 : INFO : logged Robstersgaming in with session_key Jregn8joiA5n8pwFh5rBRM75Gx-HFzosYHT3UY-c5wRpv6O-xCp9RD90BR1AfjPxbvfUW2YQyCzW4vnXzOPOV-dVYk-JgwkREDYAgjC7zoIGzKgxBg_iaYOFrNKgMR-M-H1CAu0agVmCahSVZd1nDWv5tlqYBl-rvzQzr3FV7jc
+2021-06-21 12:40:57,852 : INFO : 127.0.0.1 - - [21/Jun/2021 12:40:57] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 12:40:57,869 : INFO : 127.0.0.1 - - [21/Jun/2021 12:40:57] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:40:57,927 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:40:58,409 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:40:58,411 : INFO : 127.0.0.1 - - [21/Jun/2021 12:40:58] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:43:29,413 : INFO : 127.0.0.1 - - [21/Jun/2021 12:43:29] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:43:29,465 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:43:29,875 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:43:29,877 : INFO : 127.0.0.1 - - [21/Jun/2021 12:43:29] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:45:08,416 : INFO : 127.0.0.1 - - [21/Jun/2021 12:45:08] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:45:08,470 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:45:08,861 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:45:08,863 : INFO : 127.0.0.1 - - [21/Jun/2021 12:45:08] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:45:11,223 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:45:11,559 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:45:11,562 : INFO : 127.0.0.1 - - [21/Jun/2021 12:45:11] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:46:44,411 : INFO : 127.0.0.1 - - [21/Jun/2021 12:46:44] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:46:44,462 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:46:44,850 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:46:44,852 : INFO : 127.0.0.1 - - [21/Jun/2021 12:46:44] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:47:14,410 : INFO : 127.0.0.1 - - [21/Jun/2021 12:47:14] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:47:14,464 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:47:14,726 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:47:14,729 : INFO : 127.0.0.1 - - [21/Jun/2021 12:47:14] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:49:32,674 : INFO : 127.0.0.1 - - [21/Jun/2021 12:49:32] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:49:32,728 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:49:33,119 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:49:33,121 : INFO : 127.0.0.1 - - [21/Jun/2021 12:49:33] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:49:39,415 : INFO : 127.0.0.1 - - [21/Jun/2021 12:49:39] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:49:39,469 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:49:39,740 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:49:39,742 : INFO : 127.0.0.1 - - [21/Jun/2021 12:49:39] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:50:19,418 : INFO : 127.0.0.1 - - [21/Jun/2021 12:50:19] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:50:19,482 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:50:19,866 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:50:19,868 : INFO : 127.0.0.1 - - [21/Jun/2021 12:50:19] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:50:24,910 : INFO : 127.0.0.1 - - [21/Jun/2021 12:50:24] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:50:24,966 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:50:25,345 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:50:25,348 : INFO : 127.0.0.1 - - [21/Jun/2021 12:50:25] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:06,454 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:06] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:06,509 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:53:06,787 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:53:06,789 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:06] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:19,412 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:19] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:19,467 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:53:19,851 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:53:19,853 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:19] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:23,461 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:53:23,797 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:53:23,800 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:23] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:29,409 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:29] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:29,462 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:53:29,739 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:53:29,741 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:29] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:31,474 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:53:31,824 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:53:31,826 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:31] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:41,413 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:41] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:41,470 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:53:41,750 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:53:41,752 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:41] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:52,415 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:52] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:53:52,470 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:53:52,860 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:53:52,862 : INFO : 127.0.0.1 - - [21/Jun/2021 12:53:52] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:54:02,296 : INFO : 127.0.0.1 - - [21/Jun/2021 12:54:02] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:54:02,363 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:54:02,753 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:54:02,755 : INFO : 127.0.0.1 - - [21/Jun/2021 12:54:02] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:54:51,416 : INFO : 127.0.0.1 - - [21/Jun/2021 12:54:51] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:54:51,470 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:54:51,776 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:54:51,778 : INFO : 127.0.0.1 - - [21/Jun/2021 12:54:51] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:54:56,428 : INFO : 127.0.0.1 - - [21/Jun/2021 12:54:56] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:54:56,494 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:54:56,785 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:54:56,787 : INFO : 127.0.0.1 - - [21/Jun/2021 12:54:56] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:58:07,342 : INFO : 127.0.0.1 - - [21/Jun/2021 12:58:07] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 12:58:07,396 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 12:58:07,657 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 12:58:07,659 : INFO : 127.0.0.1 - - [21/Jun/2021 12:58:07] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:00:20,413 : INFO : 127.0.0.1 - - [21/Jun/2021 13:00:20] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:00:20,472 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:00:20,750 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:00:20,752 : INFO : 127.0.0.1 - - [21/Jun/2021 13:00:20] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:00:35,418 : INFO : 127.0.0.1 - - [21/Jun/2021 13:00:35] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:00:35,470 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:00:35,751 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:00:35,754 : INFO : 127.0.0.1 - - [21/Jun/2021 13:00:35] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:01:02,042 : INFO : 127.0.0.1 - - [21/Jun/2021 13:01:02] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:01:02,105 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:01:02,433 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:01:02,435 : INFO : 127.0.0.1 - - [21/Jun/2021 13:01:02] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:01:21,295 : INFO : 127.0.0.1 - - [21/Jun/2021 13:01:21] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:01:21,352 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:01:21,629 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:01:21,631 : INFO : 127.0.0.1 - - [21/Jun/2021 13:01:21] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:01:37,605 : INFO : 127.0.0.1 - - [21/Jun/2021 13:01:37] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:01:37,658 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:01:38,053 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:01:38,056 : INFO : 127.0.0.1 - - [21/Jun/2021 13:01:38] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:02:10,234 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:10] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:02:10,525 : INFO : logged Robstersgaming in with session_key yM09k2hKVag18Fnv3WZSMMXUkLZ-JkpIKDMLxtMBueu0dvnREZTlLuV4v7ruCjQNMBy37eyJZrhCXI9DijRa8_c1AIZ3DS45OPO6FCzYpYHUKWe1b3nVEpgJ9zQwHQQ7WIyDeqVAaT_oYWizsnkEqh8q9bcF-I7oGmouc4Nb0TE
+2021-06-21 13:02:10,526 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:10] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:02:10,536 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:10] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:02:10,587 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:02:10,852 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:02:10,854 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:10] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:02:15,326 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:15] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:02:15,611 : INFO : logged Robstersgaming in with session_key 1296OPsT5dJZOxUNjMFdBWknEZ5uCIM7sLiUgfRD5JBtjAJGiGem3ZUP4ejhyz0adRQEsVIntGzsptT_MbtMEKReQmcBzwSZDzQv5lMN_hlri-oP8ZNnCnqysvQVAIyK6iNpgUMMC0_QLb96deSuifzdIWnlwNU441ReWoB6iEY
+2021-06-21 13:02:15,611 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:15] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:02:15,622 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:15] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:02:15,675 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:02:16,044 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:02:16,046 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:16] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:02:17,919 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:02:18,142 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:02:18,144 : INFO : 127.0.0.1 - - [21/Jun/2021 13:02:18] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:22:15,255 : INFO : 127.0.0.1 - - [21/Jun/2021 13:22:15] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:22:15,309 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:22:15,683 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:22:15,685 : INFO : 127.0.0.1 - - [21/Jun/2021 13:22:15] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:29:39,926 : INFO : 127.0.0.1 - - [21/Jun/2021 13:29:39] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:29:40,222 : INFO : logged Robstersgaming in with session_key w9ejnYtbiJez-kGVoPd2Jify6NpvHxbssRtfRXFM4v2VKUvHeWPGYS3IFrSTWhpANwP6jEucAn6K7RJk4I91BKJrJCGkJH5Gc0udJ-S2Xip_cSUtkB-jNSNEpyBeM4QeRw03e_D82mqbaex3lMdi-1gVemrc1yjSCJaRFvr5wek
+2021-06-21 13:29:40,222 : INFO : 127.0.0.1 - - [21/Jun/2021 13:29:40] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:29:40,238 : INFO : 127.0.0.1 - - [21/Jun/2021 13:29:40] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:29:40,296 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:29:40,592 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:29:40,594 : INFO : 127.0.0.1 - - [21/Jun/2021 13:29:40] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:29:57,501 : INFO : 127.0.0.1 - - [21/Jun/2021 13:29:57] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:29:57,554 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:29:57,825 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:29:57,827 : INFO : 127.0.0.1 - - [21/Jun/2021 13:29:57] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:30:00,377 : INFO : 127.0.0.1 - - [21/Jun/2021 13:30:00] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:30:00,427 : INFO : 127.0.0.1 - - [21/Jun/2021 13:30:00] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:30:34,883 : INFO :  * Restarting with stat
+2021-06-21 13:30:35,161 : WARNING :  * Debugger is active!
+2021-06-21 13:30:35,167 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 13:30:35,172 : INFO :  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2021-06-21 13:31:27,633 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:27] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:27,935 : INFO : logged Robstersgaming in with session_key -TqGWuriKUZlWJ64P4EbC7-_Sf8X5OXhggCQp0mBN37ClCjBIYBbzZYwdCybuYSBRkHIjNuRDDj-eHY4FgZzPmj2SC55Tb_xnn9W_l71IIue1QOaznuFSNMMEMyZ6W5sgHOAKWLi3Q4G0uAyEsfhE5EbvhdDocsYiGnQpcIpk_Y
+2021-06-21 13:31:27,935 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:27] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:27,947 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:27] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:31:28,000 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:31:28,284 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:31:28,286 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:28] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:31:32,799 : INFO : logged Robstersgaming in with session_key 9cD-hEfgTYySMI43u9ubgirZKs10lXkD_GjQDGGF89YHRxemTPTiS9LpR6cOLxEaj6rU-me9HcIQQlHwWilbOPpln1HKUOXQTnwftj9yNVvW3jG0DGigYCRS0zPmkzHIjra-_Okhdl2ZuolLbkWe8FyKYZYbILKLT1wcOO8XjLA
+2021-06-21 13:31:32,799 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:32] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:32,862 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:31:33,209 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:31:33,211 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:33] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:31:35,412 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:35] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:35,692 : INFO : logged Robstersgaming in with session_key dGnqFgKs8BJPof8v9tmCI6RiEvHvaPdoCnAod8GXVhMVbLbfiT4xOMACjruQBYjoZn6lOPU7nPJ-O_ohFEpPDIUuwH7NtJqCNwlJJJQcnQJEuZ5WxG4kH1thk0RJzSCFHETeUta_DmM1V7bmGTZyUlMuhICqow1YHDe8FcJ6a_E
+2021-06-21 13:31:35,693 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:35] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:35,703 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:35] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:31:35,754 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:31:36,019 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:31:36,022 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:36] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:31:38,006 : INFO : logged Robstersgaming in with session_key dKvNiRhUwi7F7oBfJzs3KrHztZpUiPZ2Zho3e2G6Xm9R_HACdLJUtCv42RYJxKgsNZnxH0bhlvvRBU9zPCFpT3A6QVHh1bVc-sCUxIoUBVAhxsB9gJ36OBeoOuRmf8EMlv-LjoEalCrnLrm_J9NqXY-VXjXdC4AW0Uy_Aavw4y4
+2021-06-21 13:31:38,006 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:38] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:38,065 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:31:38,439 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:31:38,441 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:38] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:31:56,594 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:56] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:56,876 : INFO : logged Robstersgaming in with session_key 31XCDsotRbKRv__gJRjwnKTJwJw_lzuCqPCe8HrIPyKkkt5vwEmoG-pSnaLqjv1ErpN4-KtL673ws0sW_NhR1uj4hQmQ2d6xMVaLJmHWoP2MvbSRKRc1VqqQTaO-4SqZHcjOqP5NsHzUAw56Mibt7M-OHORAzvn3c9nv2JZ4U64
+2021-06-21 13:31:56,877 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:56] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:31:56,887 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:56] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:31:56,938 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:31:57,294 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:31:57,296 : INFO : 127.0.0.1 - - [21/Jun/2021 13:31:57] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:45:44,271 : INFO : 127.0.0.1 - - [21/Jun/2021 13:45:44] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:45:44,601 : INFO : logged Robstersgaming in with session_key qc9ssrC0lz3IEAPXqbc_CVCT92f0NV3RMN0indAw2TtDiJzClIYvJaZuFy72oSYKYokf_VN7vyX1MbgEAKgOi_cf_11ul94IWBiyNCrclZk-jyfxTmJxSBUZ46bCfabA9eFIMwuRTD2zS2TCq-z0pgKkfoVFPU-4m2lUezkfZpE
+2021-06-21 13:45:44,602 : INFO : 127.0.0.1 - - [21/Jun/2021 13:45:44] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:45:44,621 : INFO : 127.0.0.1 - - [21/Jun/2021 13:45:44] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:45:44,676 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:45:45,062 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:45:45,064 : INFO : 127.0.0.1 - - [21/Jun/2021 13:45:45] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:53:46,082 : INFO : 127.0.0.1 - - [21/Jun/2021 13:53:46] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:53:46,142 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:53:46,586 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:53:46,588 : INFO : 127.0.0.1 - - [21/Jun/2021 13:53:46] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:54:21,005 : INFO : 127.0.0.1 - - [21/Jun/2021 13:54:21] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:54:21,058 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:54:21,346 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:54:21,348 : INFO : 127.0.0.1 - - [21/Jun/2021 13:54:21] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:54:40,221 : INFO : 127.0.0.1 - - [21/Jun/2021 13:54:40] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:54:40,277 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:54:40,665 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:54:40,668 : INFO : 127.0.0.1 - - [21/Jun/2021 13:54:40] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:54:43,500 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:54:43,752 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:54:43,754 : INFO : 127.0.0.1 - - [21/Jun/2021 13:54:43] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:55:28,917 : INFO : 127.0.0.1 - - [21/Jun/2021 13:55:28] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:55:28,970 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:55:29,377 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:55:29,379 : INFO : 127.0.0.1 - - [21/Jun/2021 13:55:29] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:55:38,164 : INFO : 127.0.0.1 - - [21/Jun/2021 13:55:38] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:55:38,222 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:55:38,627 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:55:38,631 : INFO : 127.0.0.1 - - [21/Jun/2021 13:55:38] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:58:10,066 : INFO : 127.0.0.1 - - [21/Jun/2021 13:58:10] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:58:10,352 : INFO : logged Robstersgaming in with session_key Ki_GCwNlZi5_VtwzfpN6vbbZwBehbfs0LJPbsBk2g4F5aG4nBerusskgJT_8pqI3H3gZog717gtYDXXXQB8iGBlarpOX9XDb4iy0OeE5QsU_o4h4tpV3uhzgelJBu50KJ41Swk1JtxgNDJxD8jkVKmrRMEiFY9bXMQBYYoF-taU
+2021-06-21 13:58:10,352 : INFO : 127.0.0.1 - - [21/Jun/2021 13:58:10] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 13:58:10,365 : INFO : 127.0.0.1 - - [21/Jun/2021 13:58:10] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 13:58:10,423 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 13:58:10,814 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 13:58:10,817 : INFO : 127.0.0.1 - - [21/Jun/2021 13:58:10] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 14:35:51,975 : INFO : 127.0.0.1 - - [21/Jun/2021 14:35:51] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 14:35:52,261 : INFO : logged Robstersgaming in with session_key Eq8tL_x4DAzz8TZ7XzIdebL_P7EbuvYxE8muWLidNP5pb-26awNrOw9xEcInVvXUkw90D6EkuMJRuV6fGmLERjoR8G-Nqr3YxLG4U2MnUX5R0jSMucUxo_rFv3DxrfYpdAv4z22CUB_w9IrRaXZYnWItgQDeBp_PX51dw_9cUrc
+2021-06-21 14:35:52,261 : INFO : 127.0.0.1 - - [21/Jun/2021 14:35:52] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 14:35:52,272 : INFO : 127.0.0.1 - - [21/Jun/2021 14:35:52] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 14:35:52,325 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 14:35:52,682 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 14:35:52,685 : INFO : 127.0.0.1 - - [21/Jun/2021 14:35:52] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:19:14,534 : INFO : 127.0.0.1 - - [21/Jun/2021 15:19:14] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:19:14,824 : INFO : logged Robstersgaming in with session_key EJ0y9UkwJHMY4osa_yb80MTNqW-N1-orcGZ5GKrnkxeltWJ-SmyfSjVx_mZV7jTOEYGmY6r_BxzOO31dMHl_cCcaiPp3dZ_K1RV_oC7WfUNrFGH_kHoUNrSCs71g_BmOaoKUDQR6_1wf2Yemvx_aGMbHcqBh-IhE3C9GE5r8zXE
+2021-06-21 15:19:14,825 : INFO : 127.0.0.1 - - [21/Jun/2021 15:19:14] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:19:14,843 : INFO : 127.0.0.1 - - [21/Jun/2021 15:19:14] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:19:14,901 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:19:15,303 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:19:15,305 : INFO : 127.0.0.1 - - [21/Jun/2021 15:19:15] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:20:17,904 : INFO : 127.0.0.1 - - [21/Jun/2021 15:20:17] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:20:17,956 : INFO : 127.0.0.1 - - [21/Jun/2021 15:20:17] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:23:13,823 : INFO : 127.0.0.1 - - [21/Jun/2021 15:23:13] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:23:14,111 : INFO : logged Robstersgaming in with session_key GUnVVKiRtCeUqLj1qoUB3Xz9e-CNul2iTlxzFjgXYhCMnp2I7XRQJlXCqWu-Xx3WaAoBCjamerOeyEA7DK2ntrpoeTjRcCq41w-XbvQm-4a5M7qafLstWaT0TlsHgPpAr4aWx2nSzMo4z8Iy41n_M7JAZSGu6HQJA-oFYmIFyn0
+2021-06-21 15:23:14,111 : INFO : 127.0.0.1 - - [21/Jun/2021 15:23:14] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:23:14,131 : INFO : 127.0.0.1 - - [21/Jun/2021 15:23:14] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:23:14,185 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:23:14,559 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:23:14,561 : INFO : 127.0.0.1 - - [21/Jun/2021 15:23:14] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:16,367 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:16] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:24:16,658 : INFO : logged Robstersgaming in with session_key 3mqd6d9PuDUHhH-pOVODgvcWeGC7SjtUmwIj8ZXiMwYQLftI5ycI1Y90UAPbMxiTPkptxsN8vuIqnma-spq0vo37VDvBPd80cgnvCYduEwo2R4ou9U3K2HfyaQdb5HisdOrf9lH3kx-u1-moSM7caMWgBQcpRNOhZblFvgwbg38
+2021-06-21 15:24:16,658 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:16] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:24:16,676 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:16] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:16,729 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:24:17,012 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:24:17,016 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:17] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:24,621 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:24] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:24:24,909 : INFO : logged Robstersgaming in with session_key MqhKCjzsBJLGQbK8YcFYU8ExFKOAE7dqQxw-oHkp8ANbvGV3A_7Y_1gxDd7tlvWz_Edk-lnXoCAfDSQZ2Kfgf0qcu2zSBsrejvGaZKTJBRwZXFq8wmAM7Md2JBvuAcsuvDvDzpguayyc8zH7jQXkRXTGpsg2LsTG33FJEOY-GdI
+2021-06-21 15:24:24,910 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:24] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:24:24,922 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:24] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:24,977 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:24:25,334 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:24:25,338 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:25] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:30,497 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:30] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:24:30,781 : INFO : logged Robstersgaming in with session_key xcXCm1LJACZLRBBQcMaV4j0XxJSlr99y5RZLdwLCTcJGUbfhV9bTsW03ixV2Ko9IU9l1rCp0e8Fzu0bzBxjUwICjNtBxzG5o80F0hDXVNddMIAT3X04ni7_fboN2gbyxI3IYMS0dBHZGzEOzBuegmotpnhSCiIq-j060caln-z4
+2021-06-21 15:24:30,781 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:30] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:24:30,795 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:30] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:30,851 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:24:31,240 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:24:31,243 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:31] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:58,668 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:58] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:24:58,726 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:24:59,089 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:24:59,091 : INFO : 127.0.0.1 - - [21/Jun/2021 15:24:59] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:25:00,026 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:25:00,281 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:25:00,284 : INFO : 127.0.0.1 - - [21/Jun/2021 15:25:00] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:25:12,016 : INFO : 127.0.0.1 - - [21/Jun/2021 15:25:12] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:25:12,082 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:25:12,434 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:25:12,436 : INFO : 127.0.0.1 - - [21/Jun/2021 15:25:12] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:25:28,984 : INFO : 127.0.0.1 - - [21/Jun/2021 15:25:28] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:25:29,274 : INFO : logged Robstersgaming in with session_key UDFgGI8ZLYEirYHqvrkAp2MNMAXTQ2pVpnR5TULk2dvDHOBdfH79F8qE3Jf-yngZNsbFIE9casxG-g5-7IHp7VUOGuGTo8YebBP9E3Mdy50KCXAAVCLIHq6RyPqwP_QkYGamanYH3oqjmjXfODo2SuJSJqOo9kkzYHuX4apl9o8
+2021-06-21 15:25:29,274 : INFO : 127.0.0.1 - - [21/Jun/2021 15:25:29] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 15:25:29,287 : INFO : 127.0.0.1 - - [21/Jun/2021 15:25:29] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 15:25:29,342 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 15:25:29,748 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 15:25:29,751 : INFO : 127.0.0.1 - - [21/Jun/2021 15:25:29] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 16:58:51,426 : INFO : 127.0.0.1 - - [21/Jun/2021 16:58:51] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 16:58:51,479 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 16:58:51,896 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 16:58:51,898 : INFO : 127.0.0.1 - - [21/Jun/2021 16:58:51] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 17:02:51,406 : INFO : 127.0.0.1 - - [21/Jun/2021 17:02:51] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 17:02:51,463 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 17:02:51,868 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 17:02:51,870 : INFO : 127.0.0.1 - - [21/Jun/2021 17:02:51] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 18:00:10,088 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:10] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 18:00:10,144 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 18:00:10,443 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 18:00:10,445 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:10] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 18:00:34,528 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:34] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 18:00:34,585 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 18:00:34,981 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 18:00:34,983 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:34] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 18:00:50,197 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:50] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 18:00:50,473 : INFO : logged Robstersgaming in with session_key HjnDIYhnQ1JqScuXUn42Cy9bH5EOu2OQJzFd4kWZNhceqKZgA-tqjVpzqavturGzB2Y0I4MSXtO93vrwafFwjmICGsoaYBsmMJ54fMZgBWyOWkwgGA_Ku7AuOkPzwfl5t19uDspkhoSn7O2EQFsW7u-uyCb-Rxl3Jhp03Uv-oZs
+2021-06-21 18:00:50,474 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:50] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 18:00:50,491 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:50] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 18:00:50,553 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 18:00:50,855 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 18:00:50,857 : INFO : 127.0.0.1 - - [21/Jun/2021 18:00:50] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:16:31,340 : INFO : 127.0.0.1 - - [21/Jun/2021 19:16:31] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:16:31,618 : INFO : logged Robstersgaming in with session_key VC7f2L1MTQX13TQrOU3sjBm-ozUpeSHsvYNE-nGDnzeufKQdBdnEOOlvmwVZbUv8eB7pTXYGl_Bv8m9pPP_fMVjoh16B6FfmGz3qDvifabc3SNt27wu-WhzQRGy7SVUhZLl1essE61qTYZsdb3JlpGJrmdYG31txM4bG05d2bdo
+2021-06-21 19:16:31,619 : INFO : 127.0.0.1 - - [21/Jun/2021 19:16:31] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:16:31,635 : INFO : 127.0.0.1 - - [21/Jun/2021 19:16:31] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:16:31,687 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 19:16:32,106 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 19:16:32,108 : INFO : 127.0.0.1 - - [21/Jun/2021 19:16:32] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:41:01,619 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:01] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:41:01,905 : INFO : logged Robstersgaming in with session_key PfwpFzEA1if6yJcgAIYFrQkM3wwREfGm0WcJYEHcYQfgyjeMep87-DZ1DQsssb35mJwS0OJktvSclB0ze4YraGMD8_cOiDQTokCrLcVEa2zyqKB97378dL9AholXEMl6hbTDUe8rZKwc7qOWdzNF1LHNUSbVQQQZDYj3-7KTltc
+2021-06-21 19:41:01,905 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:01] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:41:01,929 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:01] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:41:01,982 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 19:41:02,287 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 19:41:02,289 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:02] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:41:07,960 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:07] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:41:08,237 : INFO : logged Robstersgaming in with session_key Q9ntZAfQw_kQEIh-nP88eKgUavR9A0gE-YNko1wBHA3fVjlTLAxo42SXdiko-VTkiLLvCXt2-9eKTWZYtMae_E2HyIxuAycNqhvBUKp7KcYj2ba4wwABvB_kUih09Ob-7MjTODzQixzTOrS5ApBXrW0TgRuoNdeMXyXAqsyJumE
+2021-06-21 19:41:08,237 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:08] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:41:08,250 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:08] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:41:08,302 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 19:41:08,562 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 19:41:08,564 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:08] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:41:35,438 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:35] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:41:35,715 : INFO : logged Robstersgaming in with session_key YjYbbKttbX7lDalbkfkR9ncLPSY-r2cX8SSCdfLxbMrhVNgYXJ8SwU3LfOvUGnMnyuWG39_Vi9zuXTICn0PmvJzFk2kbi2hiSGED306yX0SQLGGwe_rDCfthXNyqsZfdEsLHvp1E7JVQghOjXZD09rklTr7ZcrW1RznYpm3o0wY
+2021-06-21 19:41:35,715 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:35] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:41:35,736 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:35] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:41:35,788 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 19:41:36,147 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 19:41:36,154 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:36] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 19:41:47,059 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:47] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 19:41:47,108 : INFO : 127.0.0.1 - - [21/Jun/2021 19:41:47] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:47:35,622 : INFO : 127.0.0.1 - - [21/Jun/2021 20:47:35] "[37mOPTIONS /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:47:35,671 : INFO : 127.0.0.1 - - [21/Jun/2021 20:47:35] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:47:38,465 : INFO : logged Robstersgaming in with session_key xOccY3PxO9ayrsYATn-2R6PVWAhP-lEOXMapvutQakZ2MJH_GH2jjdHUVQ8XcYr9IshhuGoHVTQN1Sa0YIw7BrfRLcJjDuQ0CjZHuzJaRb2VlEkj2oU8y6xtkB9IwkNiGW66uUl9OCGLEblJza08iGFv9yXUeAF3aevLvxmyIls
+2021-06-21 20:47:38,466 : INFO : 127.0.0.1 - - [21/Jun/2021 20:47:38] "[37mPOST /authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:47:38,529 : INFO : 127.0.0.1 - - [21/Jun/2021 20:47:38] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:47:38,580 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:47:38,863 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:47:38,865 : INFO : 127.0.0.1 - - [21/Jun/2021 20:47:38] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:51:08,415 : INFO : 127.0.0.1 - - [21/Jun/2021 20:51:08] "[37mOPTIONS /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:51:08,468 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:51:08,837 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:51:08,839 : INFO : 127.0.0.1 - - [21/Jun/2021 20:51:08] "[37mGET /getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:08,911 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-21 20:54:08,931 : INFO :  * Restarting with stat
+2021-06-21 20:54:09,200 : WARNING :  * Debugger is active!
+2021-06-21 20:54:09,206 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 20:54:09,213 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 20:54:12,629 : INFO :  * Restarting with stat
+2021-06-21 20:54:12,862 : WARNING :  * Debugger is active!
+2021-06-21 20:54:12,867 : INFO :  * Debugger PIN: 288-618-281
+2021-06-21 20:54:12,874 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-21 20:54:16,506 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:16] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:54:16,805 : INFO : logged Robstersgaming in with session_key 3LywP5Ya1kVr9gPWGfbOaFtzmh2AhiaDXurmLDJ49Ba3w7z3_Dasgt5VJNWi-XpMbbjra9F6UJcVyRzq6Ip4guX8_C2DCHiaN8VGnbAiGx_taUKuzKHdzfXVAe3leXmiMHlq9pLeYxNyjWxP_Jp72l8Hg7_Um4WoZ8so31s8mvg
+2021-06-21 20:54:16,805 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:16] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:54:16,842 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:16] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:16,911 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:54:17,305 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:54:17,307 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:17] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:18,913 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:18] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:54:19,214 : INFO : logged Robstersgaming in with session_key Df0Itx-m9ax5vmjWR4O8gEzSZY8_Cvd6A2nE1SiTWyEc-SbYSt2emrbPGIvmEcsBtgD8djAWtNODAe1xobHaucPJIOYWgp34sWKLEGHYlX7lF7A-4RQ7SeNyKFGPO9hLxSzEvBGKgDMA2sygSKb5UBkSoq-zJ-phwgMJDVYtuOo
+2021-06-21 20:54:19,214 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:19] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:54:19,251 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:19] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:19,331 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:54:19,695 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:54:19,697 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:19] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:23,928 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:54:24,290 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:54:24,292 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:24] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:25,030 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:25] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:25,104 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:25] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:41,310 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:41] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:41,394 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:54:41,745 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:54:41,747 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:41] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:54,604 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:54] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:54:54,921 : INFO : logged Robstersgaming in with session_key ZE2Lqg3FzDvEpoqVIr9han5YSDtZNr2nk40-09qprkmIfl5a-N0a7etQQAktjMK6etttHNLQisMew9x4H8ctL5mVVfZMILmABk-TLFpGUMmC5uJ5DY-XzZ0PfuvRppp292cR3_C_n8NfeXPQOkFzsw7U-mwRjkqyWz_fr4HSgVs
+2021-06-21 20:54:54,921 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:54] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:54:54,962 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:54] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:54:55,034 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:54:55,392 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:54:55,394 : INFO : 99.234.19.2 - - [21/Jun/2021 20:54:55] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:34,709 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:34] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:34,795 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:55:35,174 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:55:35,176 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:35] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:45,095 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:45] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:45,178 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:55:45,525 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:55:45,527 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:45] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:47,210 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:55:47,567 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:55:47,569 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:47] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:51,096 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:51] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:51,172 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:55:51,426 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:55:51,428 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:51] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:58,780 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:58] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:55:58,853 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:55:59,087 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:55:59,089 : INFO : 99.234.19.2 - - [21/Jun/2021 20:55:59] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:02,959 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:56:03,194 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:56:03,196 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:03] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:09,220 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:09] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:56:09,529 : INFO : logged Robstersgaming in with session_key fW2Dg4IpKDECFqZryPy_CuGhZXMeqImJ0l0oF-GTVKOdJVOjv7wFzs3tE1bIbQcF6Ook6Y0lCJ-fuazSXKTK0JlyFsLMBbPB8PlWY2Dl5nciEr31xLJc65LcY0Pm6VhR3izLUTqEA6nXld9J3XiLvhvB-Zznt47ytTE_G2SSDbk
+2021-06-21 20:56:09,530 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:09] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:56:09,567 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:09] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:09,644 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:56:09,891 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:56:09,893 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:09] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:39,618 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:39] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:39,698 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:56:39,938 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:56:39,941 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:39] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:46,112 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:46] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:56:46,411 : INFO : logged Robstersgaming in with session_key p43AJb6DrahysVrabPPrvdE_AJl-FbQSooO9GQcA39_Mn5w0KY2o0ZeGo_t_iv2lDdgaK1sHzPBGmUVogH2bsf5tzSsIkOp7la5fbKBD5foHNBnbN9tQX-E6tnzQmAR7mC9XUuomDnqyUPalrlM4tr9XABBqVJbEyc1T7nE4c2A
+2021-06-21 20:56:46,411 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:46] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:56:46,448 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:46] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:46,527 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:56:46,911 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:56:46,913 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:46] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:54,492 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:54] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:56:54,820 : INFO : logged Robstersgaming in with session_key ZDpA0e4pWZDCznde1ShamnDKrbW6eHDALNzw1HyJztSsaSe3NKFSjLVUXsqlxfNPQdqa-DrPjigMppHibcfEfZ936CwfiGemqXSOo_dzVSW17JnjJhSLTnFOnQpsIpWywYbP1jCCtfZJSWaFsEpz2cPb6CJcOIozBMjyUNNFpWY
+2021-06-21 20:56:54,820 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:54] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:56:54,867 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:54] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:56:54,950 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:56:55,216 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:56:55,218 : INFO : 99.234.19.2 - - [21/Jun/2021 20:56:55] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:57:02,491 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:02] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:57:02,790 : INFO : logged Robstersgaming in with session_key NkAe8Wij_voQefaYbseNdxfxt9Z2rV5p-nCFjkUf6F7U84NK6l-qJL7G8cn_rsy0xYKfnDMq6vM4nuuOWpGxpDxXOAOhnfW4kJBObt1LvYWnrzA7JWR28PccH5KsNq6EGS3Q9hpG651VEZqPoM4znY40C-a1RCBIfNM5zyPKf94
+2021-06-21 20:57:02,791 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:02] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:57:02,827 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:02] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:57:02,901 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:57:03,231 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:57:03,233 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:03] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:57:13,840 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:13] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:57:13,918 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:57:14,196 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:57:14,198 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:14] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:57:15,173 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:15] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:57:15,250 : INFO : 99.234.19.2 - - [21/Jun/2021 20:57:15] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:58:36,059 : INFO : 99.234.19.2 - - [21/Jun/2021 20:58:36] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:58:36,363 : INFO : logged Robstersgaming in with session_key gF8ZtMwbqKVmB8sG_OqKcoVTtsT6w9VSpdpShfvpTimBJXGr2L7-cMusmTsOb3hekGftqtp_vLbv17TuMqFcoYO6Z6PljC1r1au-BxaEb6x_LbqA5uSmMwYXOpa9bYZjcOwpo90DHcvCj1tUEnm1zTLI069cZg2JibkPoZE4fgY
+2021-06-21 20:58:36,364 : INFO : 99.234.19.2 - - [21/Jun/2021 20:58:36] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 20:58:36,402 : INFO : 99.234.19.2 - - [21/Jun/2021 20:58:36] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:58:36,480 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:58:36,922 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:58:36,924 : INFO : 99.234.19.2 - - [21/Jun/2021 20:58:36] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:58:48,382 : INFO : 99.234.19.2 - - [21/Jun/2021 20:58:48] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:58:48,455 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:58:48,824 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:58:48,826 : INFO : 99.234.19.2 - - [21/Jun/2021 20:58:48] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:58:52,099 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:58:52,435 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:58:52,437 : INFO : 99.234.19.2 - - [21/Jun/2021 20:58:52] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:59:44,050 : INFO : 99.234.19.2 - - [21/Jun/2021 20:59:44] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 20:59:44,122 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 20:59:44,413 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 20:59:44,415 : INFO : 99.234.19.2 - - [21/Jun/2021 20:59:44] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:00:06,759 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:06] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:00:07,057 : INFO : logged Robstersgaming in with session_key DE4BBZfy8qxMCmsox_WPYEqBrHYH7_XRZlx-N3qckEbziNldMpmGUsEBBnldRZrO3z7FZ3-4I5jbnaLPTCXvH2-jJmk45ea-Xga2gCaiTVodlkjotNFWh8wkm9MEG2iutFZAR53xekc77EJRKPLAFP5-JEhMjHB1YAxbUYS3yvo
+2021-06-21 21:00:07,057 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:07] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:00:07,094 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:07] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:00:07,170 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:00:07,452 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 21:00:07,454 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:07] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:00:48,609 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:48] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:00:48,686 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:00:48,957 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 21:00:48,959 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:48] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:00:57,905 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:57] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:00:58,206 : INFO : logged Robstersgaming in with session_key _oDpwuonCh0hOojjmoxp9Q2fKST6Jf8zrYrZyLXa0KnW0Aem-dlPQGjSc1MCDgFsudjd-hYp2lAzCXC2V5sa-uKUD7kBo_niAXB2xQAfJF6BdU3okPG_ovbs_3XCWLckdijbC9HOpKu0bgHq2BNIJ2Aopn2cEICcwHnLWWI9-cY
+2021-06-21 21:00:58,207 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:58] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-21 21:00:58,239 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:58] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-21 21:00:58,308 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-21 21:00:58,585 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-21 21:00:58,587 : INFO : 99.234.19.2 - - [21/Jun/2021 21:00:58] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
