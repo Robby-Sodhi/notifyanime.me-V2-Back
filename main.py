@@ -32,13 +32,20 @@ def authenticateUser():
     try:
         username = requestData["username"]
         password = requestData["password"]
+        type = requestData["type"]
     except KeyError:
-        app.logger.warning(f"username or password missing in request to /authenticateUser")
+        app.logger.warning(f"username, password, type missing in request to /authenticateUser")
         return json.dumps(data_object)
-    if not username or not password:
-        app.logger.warning(f"username or password missing in request to /authenticateUser")
+    if not username or not password or not type:
+        app.logger.warning(f"username, password, type missing in request to /authenticateUser")
         return json.dumps(data_object)
-    elif (get_db().verify_user(username, password)):
+    if type == "signup":
+        if (get_db().check_if_username_exists(username)):
+            return json.dumps(data_object)
+        else:
+            #assume its safe
+            get_db().createUser(username, password)
+    if (get_db().verify_user(username, password)):
         data_object["status"] = True;
         session_key = secrets.token_urlsafe(128)
         #assume its safe because we already verified user
@@ -48,6 +55,7 @@ def authenticateUser():
         return json.dumps(data_object)
     else:
         return json.dumps(data_object)
+    return json.dumps(data_object)
 @app.route("/getWatchList", methods=["GET"])
 def getWatchList():
     dataObject = {"sessionKeyValid": False, "WatchList": None}
@@ -75,40 +83,6 @@ def authenticateMal():
     data_object["status"] = MyAnimeList.authenticate_user(data["sessionKey"], data["authorizationCode"], data["codeChallenge"], get_db())
     app.logger.info(f"session_key {data['sessionKey']} attempted to log-in to MAL status={data_object['status']}")
     return json.dumps(data_object)
-@app.route("/signUpUser", methods=["POST"])
-def signUpUser():
-    ###############################repeat code fix this
-    data_object = {"status": False, "session-key": None}
-    #expected data type application/json
-    requestData = request.get_json()
-    try:
-        username = requestData["username"]
-        password = requestData["password"]
-    except KeyError:
-        app.logger.warning(f"username or password missing in request to /authenticateUser")
-        return json.dumps(data_object)
-    if not username or not password:
-        app.logger.warning(f"username or password missing in request to /authenticateUser")
-        return json.dumps(data_object)
-    if (get_db().check_if_username_exists(username)):
-        return json.dumps(data_object)
-        ##############################repeat code fix this
-    else:
-        #assume its safe
-        get_db().createUser(username, password)
-        ###################################repeat code fix this
-        if (get_db().verify_user(username, password)):
-            data_object["status"] = True;
-            session_key = secrets.token_urlsafe(128)
-            #assume its safe because we already verified user
-            get_db().write_session_to_user(username, session_key, generate_30_day_date(), get_user_agent())
-            data_object["session-key"] = session_key
-            app.logger.info(f"logged {username} in with session_key {session_key}")
-            return json.dumps(data_object)
-        else:
-            return json.dumps(data_object)
-    return json.dumps(data_object)
-        ###############################repeat code fix this
 
 if __name__ == "__main__":
     app.run(debug=True, port=8000, host="0.0.0.0")
