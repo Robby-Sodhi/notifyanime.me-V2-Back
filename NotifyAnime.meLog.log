@@ -3981,3 +3981,17 @@
 2021-06-25 17:46:16,557 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
 2021-06-25 17:46:17,212 : INFO : 99.234.19.2 - - [25/Jun/2021 17:46:17] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
 2021-06-25 17:46:49,597 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-25 17:46:49,616 : INFO :  * Restarting with stat
+2021-06-25 17:46:49,867 : WARNING :  * Debugger is active!
+2021-06-25 17:46:49,872 : INFO :  * Debugger PIN: 288-618-281
+2021-06-25 17:46:49,878 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-25 17:50:31,935 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\DataBase.py', reloading
+2021-06-25 17:50:31,953 : INFO :  * Restarting with stat
+2021-06-25 17:50:32,222 : WARNING :  * Debugger is active!
+2021-06-25 17:50:32,227 : INFO :  * Debugger PIN: 288-618-281
+2021-06-25 17:50:32,234 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-25 17:50:34,314 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\DataBase.py', reloading
+2021-06-25 17:50:34,334 : INFO :  * Restarting with stat
+2021-06-25 17:50:34,578 : WARNING :  * Debugger is active!
+2021-06-25 17:50:34,583 : INFO :  * Debugger PIN: 288-618-281
+2021-06-25 17:50:34,590 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
