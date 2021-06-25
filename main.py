@@ -1,7 +1,7 @@
 import logging
 import DataBase
 import MyAnimeList
-from datetime import datetime
+import datetime
 from flask import Flask, request, g
 from flask_cors import CORS, cross_origin
 import base64
@@ -18,7 +18,9 @@ def get_db():
     if "db" not in g:
         g.db = DataBase.DataBase()
     return g.db
-
+def generate_30_day_date():
+    date_format_string = "%Y-%m-%d"
+    return (datetime.datetime.now() + datetime.timedelta(30)).strftime(date_format_string)
 
 @app.route("/authenticateUser", methods=["POST"])
 def authenticateUser():
@@ -38,7 +40,7 @@ def authenticateUser():
         data_object["status"] = True;
         session_key = secrets.token_urlsafe(128)
         #assume its safe because we already verified user
-        get_db().write_session_to_user(username, session_key)
+        get_db().write_session_to_user(username, session_key, generate_30_day_date())
         data_object["session-key"] = session_key
         app.logger.info(f"logged {username} in with session_key {session_key}")
         return json.dumps(data_object)
@@ -97,7 +99,7 @@ def signUpUser():
             data_object["status"] = True;
             session_key = secrets.token_urlsafe(128)
             #assume its safe because we already verified user
-            get_db().write_session_to_user(username, session_key)
+            get_db().write_session_to_user(username, session_key, generate_30_day_date())
             data_object["session-key"] = session_key
             app.logger.info(f"logged {username} in with session_key {session_key}")
             return json.dumps(data_object)
