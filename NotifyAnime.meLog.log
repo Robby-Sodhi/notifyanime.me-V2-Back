@@ -3995,3 +3995,20 @@
 2021-06-25 17:50:34,578 : WARNING :  * Debugger is active!
 2021-06-25 17:50:34,583 : INFO :  * Debugger PIN: 288-618-281
 2021-06-25 17:50:34,590 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-25 17:51:22,327 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-25 17:51:22,346 : INFO :  * Restarting with stat
+2021-06-25 17:51:22,596 : WARNING :  * Debugger is active!
+2021-06-25 17:51:22,601 : INFO :  * Debugger PIN: 288-618-281
+2021-06-25 17:51:22,608 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2021-06-25 17:51:29,775 : INFO : 99.234.19.2 - - [25/Jun/2021 17:51:29] "[37mOPTIONS //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-25 17:51:30,134 : INFO : logged Robstersgaming in with session_key PV3ESR_cG3THZnPbBQC9suoXZlHzxr5LaXlasUW3hYxsNTUTET41mkmN8GaWqjR4EGwhiLAwdy0UL21wACkUfI0oX_oZ2aShbzubVP7wQ9unRdqAa5iGqhZflMgFR0WcHVojwGIjYMaHX9ykZXEoQOPt9P4STgi5au4W6TDKFHA
+2021-06-25 17:51:30,135 : INFO : 99.234.19.2 - - [25/Jun/2021 17:51:30] "[37mPOST //authenticateUser HTTP/1.1[0m" 200 -
+2021-06-25 17:51:30,193 : INFO : 99.234.19.2 - - [25/Jun/2021 17:51:30] "[37mOPTIONS //getWatchList HTTP/1.1[0m" 200 -
+2021-06-25 17:51:30,293 : DEBUG : Starting new HTTPS connection (1): api.myanimelist.net:443
+2021-06-25 17:51:30,917 : DEBUG : https://api.myanimelist.net:443 "GET /v2/users/@me/animelist?fields=broadcast,status,synopsis,alternative_titles,id,my_list_status,num_episodes&limit=1000 HTTP/1.1" 200 None
+2021-06-25 17:51:31,469 : INFO : 99.234.19.2 - - [25/Jun/2021 17:51:31] "[37mGET //getWatchList HTTP/1.1[0m" 200 -
+2021-06-25 17:52:39,442 : INFO :  * Detected change in 'C:\\desktop 2\\files\\Python projects\\NotifyAnime.me-V2 backend\\main.py', reloading
+2021-06-25 17:52:39,463 : INFO :  * Restarting with stat
+2021-06-25 17:52:39,706 : WARNING :  * Debugger is active!
+2021-06-25 17:52:39,712 : INFO :  * Debugger PIN: 288-618-281
+2021-06-25 17:52:39,718 : INFO :  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
