@@ -1,4 +1,3 @@
-import logging
 import DataBase
 import MyAnimeList
 import datetime
@@ -12,7 +11,6 @@ app = Flask(__name__)
 #****************** TEMPORARY JUST FOR TESTING
 cors = CORS(app)
 #*******************
-logging.basicConfig(filename = 'NotifyAnime.meLog.log', level=logging.DEBUG, format = '%(asctime)s : %(levelname)s : %(message)s')
 # add logging for the amount of logins and dashboard visits!!!!!!!!!!
 def get_db():
     if "db" not in g:
@@ -34,10 +32,8 @@ def authenticateUser():
         password = requestData["password"]
         type = requestData["type"]
     except KeyError:
-        app.logger.warning(f"username, password, type missing in request to /authenticateUser")
         return json.dumps(data_object)
     if not username or not password or not type:
-        app.logger.warning(f"username, password, type missing in request to /authenticateUser")
         return json.dumps(data_object)
     if type == "signup":
         if (get_db().check_if_username_exists(username)):
@@ -51,7 +47,6 @@ def authenticateUser():
         #assume its safe because we already verified user
         get_db().write_session_to_user(username, session_key, generate_30_day_date(), get_user_agent())
         data_object["session-key"] = session_key
-        app.logger.info(f"logged {username} in with session_key {session_key}")
         return json.dumps(data_object)
     else:
         return json.dumps(data_object)
@@ -81,7 +76,6 @@ def authenticateMal():
     if not "sessionKey" in data or not "authorizationCode" in data or not data["sessionKey"] or not data["authorizationCode"] or not get_db().is_session_valid(data["sessionKey"]):
         return json.dumps(data_object)
     data_object["status"] = MyAnimeList.authenticate_user(data["sessionKey"], data["authorizationCode"], data["codeChallenge"], get_db())
-    app.logger.info(f"session_key {data['sessionKey']} attempted to log-in to MAL status={data_object['status']}")
     return json.dumps(data_object)
 
 if __name__ == "__main__":
