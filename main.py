@@ -92,7 +92,8 @@ def adjustEpisode():
     mal_auth_details = get_db().get_mal_auth_details(session_key)
     if not mal_auth_details["status"]:
         return dataObject
-    MyAnimeList.update_episode(mal_auth_details["accesstoken"], id, numWatched)
+    if (not MyAnimeList.update_episode(mal_auth_details["accesstoken"], id, numWatched)):
+        return json.dumps(dataObject)
     dataObject["status"] = True
     return json.dumps(dataObject)
 
