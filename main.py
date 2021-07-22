@@ -77,6 +77,24 @@ def authenticateMal():
         return json.dumps(data_object)
     data_object["status"] = MyAnimeList.authenticate_user(data["sessionKey"], data["authorizationCode"], data["codeChallenge"], get_db())
     return json.dumps(data_object)
+@app.route("/adjustEpisode", methods=["POST"])
+def adjustEpisode():
+    dataObject = {"status": False}
+    requestData = json.loads(request.data)
+    try:
+        numWatched = requestData["numWatched"]
+        id = requestData["id"]
+    except KeyError:
+        return json.dumps(dataObject)
+    session_key = request.headers.get("session-key")
+    if not session_key or not get_db().is_session_valid(session_key):
+        return dataObject
+    mal_auth_details = get_db().get_mal_auth_details(session_key)
+    if not mal_auth_details["status"]:
+        return dataObject
+    MyAnimeList.update_episode(mal_auth_details["accesstoken"], id, numWatched)
+    dataObject["status"] = True
+    return json.dumps(dataObject)
 
 if __name__ == "__main__":
     app.run(debug=True, port=8000, host="0.0.0.0")
