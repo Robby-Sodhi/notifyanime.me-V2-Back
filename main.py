@@ -57,7 +57,6 @@ def authenticateUser():
     return json.dumps(data_object)
 @app.route("/api/getWatchList", methods=["GET"])
 def getWatchList():
-    1 / 0
     dataObject = {"sessionKeyValid": False, "WatchList": None}
     session_key = request.headers.get("session-key")
     if not session_key or not get_db().is_session_valid(session_key):
