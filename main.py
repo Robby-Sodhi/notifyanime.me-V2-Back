@@ -7,7 +7,13 @@ import psycopg2
 import json
 import secrets
 app = Flask(__name__)
-#****************** TEMPORARY JUST FOR TESTING
+#****************** TEMPORARY JUST FOR DEVELOPMENT
+
+
+#cors = CORS(app) //for development only
+#from flask_cors import CORS, cross_origin
+
+
 #*******************
 # add logging for the amount of logins and dashboard visits!!!!!!!!!!
 def get_db():
