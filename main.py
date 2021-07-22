@@ -22,7 +22,7 @@ def generate_30_day_date():
 def get_user_agent():
     return request.headers.get('User-Agent')
 
-@app.route("/authenticateUser", methods=["POST"])
+@app.route("/api/authenticateUser", methods=["POST"])
 def authenticateUser():
     data_object = {"status": False, "session-key": None}
     #expected data type application/json
@@ -51,7 +51,7 @@ def authenticateUser():
     else:
         return json.dumps(data_object)
     return json.dumps(data_object)
-@app.route("/getWatchList", methods=["GET"])
+@app.route("/api/getWatchList", methods=["GET"])
 def getWatchList():
     dataObject = {"sessionKeyValid": False, "WatchList": None}
     session_key = request.headers.get("session-key")
@@ -69,7 +69,7 @@ def getWatchList():
             else:
                 return dataObject
     return dataObject
-@app.route("/authenticateMal", methods=["POST"])
+@app.route("/api/authenticateMal", methods=["POST"])
 def authenticateMal():
     data_object = {"status": False}
     data = request.get_json()
@@ -77,7 +77,7 @@ def authenticateMal():
         return json.dumps(data_object)
     data_object["status"] = MyAnimeList.authenticate_user(data["sessionKey"], data["authorizationCode"], data["codeChallenge"], get_db())
     return json.dumps(data_object)
-@app.route("/adjustEpisode", methods=["POST"])
+@app.route("/api/adjustEpisode", methods=["POST"])
 def adjustEpisode():
     dataObject = {"status": False}
     requestData = json.loads(request.data)
