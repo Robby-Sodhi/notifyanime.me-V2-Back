@@ -2,14 +2,12 @@ import DataBase
 import MyAnimeList
 import datetime
 from flask import Flask, request, g
-from flask_cors import CORS, cross_origin
 import base64
 import psycopg2
 import json
 import secrets
 app = Flask(__name__)
 #****************** TEMPORARY JUST FOR TESTING
-cors = CORS(app)
 #*******************
 # add logging for the amount of logins and dashboard visits!!!!!!!!!!
 def get_db():
