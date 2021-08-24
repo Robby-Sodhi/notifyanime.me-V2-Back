@@ -6,7 +6,7 @@ from constants import host, database, user, password, port
 
 class DataBase():
     def __init__(self):
-        self.connection = psycopg2.connect(host=host,database=database,user=user,password=password,port="5432")
+        self.connection = psycopg2.connect(host=host,database=database,user=user,password=password,port=port)
 
     def createUser(self, username, password):
         with self.connection:
